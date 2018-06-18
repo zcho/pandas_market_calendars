@@ -107,7 +107,7 @@ class MarketCalendar(six.with_metaclass(ABCMeta)):
     def special_opens_adhoc(self):
         """
 
-        :return: List of (time, DatetimeIndex) tuples that represent special closes that cannot be codified into rules.
+        :return: List of (time, DatetimeIndex) tuples that represent special opens that cannot be codified into rules.
         """
         return []
 
